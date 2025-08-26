@@ -1,0 +1,64 @@
+import type { Character } from "@/types/character";
+
+export const SAMPLE_DATA: Character[] = [
+  {
+    id: "1",
+    name: "궁수",
+    image: "/fantasy-archer-character-portrait.png",
+    originalStats: {
+      attack: 42,
+      attackSpeed: 0.67,
+      defense: 5,
+      hp: 100,
+      skillCooldown: 3.0,
+    },
+    modifiedStats: {
+      attack: 42,
+      attackSpeed: 0.67,
+      defense: 5,
+      hp: 100,
+      skillCooldown: 3.0,
+    },
+    selected: false,
+  },
+  {
+    id: "2",
+    name: "전사",
+    image: "/fantasy-warrior-character-portrait.png",
+    originalStats: {
+      attack: 10,
+      attackSpeed: 1.18,
+      defense: 40,
+      hp: 190,
+      skillCooldown: 2.7,
+    },
+    modifiedStats: {
+      attack: 10,
+      attackSpeed: 1.18,
+      defense: 40,
+      hp: 190,
+      skillCooldown: 2.7,
+    },
+    selected: false,
+  },
+  {
+    id: "3",
+    name: "기사",
+    image: "/medieval-knight-character-portrait.png",
+    originalStats: {
+      attack: 21,
+      attackSpeed: 0.67,
+      defense: 60,
+      hp: 200,
+      skillCooldown: 4.2,
+    },
+    modifiedStats: {
+      attack: 21,
+      attackSpeed: 0.67,
+      defense: 60,
+      hp: 200,
+      skillCooldown: 4.2,
+    },
+    selected: false,
+  },
+];
